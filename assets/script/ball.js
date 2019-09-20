@@ -46,6 +46,10 @@ cc.Class({
         // 球数显示
         this.userInfo = cc.find("UI_ROOT/userInfo")
         this.ballNumLabel = cc.find("UI_ROOT/userInfo/ballNum").getComponent(cc.Label)
+        // 砖块列表
+        this.levelBlockNode = cc.find("UI_ROOT/levelBlock");
+
+
 
         this.RigidBody = this.getComponent(cc.RigidBody);
 
@@ -106,7 +110,15 @@ cc.Class({
             this.msg.active = false;
         }.bind(this), 3)
     },
-
+    // 获取剩下砖块数
+    getBlockNum(){
+        var surplusBlock = this.levelBlockNode.childrenCount;
+        if(this.levelBlockNode.childrenCount == 0){
+            // 通关
+            this.gameMain.passLevel()
+        }
+        
+    },
     start() {
 
     },
@@ -134,7 +146,12 @@ cc.Class({
     // 只在两个碰撞体结束接触时被调用一次
     onEndContact: function (contact, selfCollider, otherCollider) {
         if (otherCollider.node.groupIndex === 3) {
-            otherCollider.node.destroy();
+            if(this.attack >= otherCollider.node.getComponent("block").defense){
+                otherCollider.node.destroy();
+                this.getBlockNum()
+            }else {
+                otherCollider.node.getComponent("block").defense -= this.attack;
+            }
         }
     },
 

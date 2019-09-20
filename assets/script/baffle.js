@@ -87,4 +87,17 @@ cc.Class({
             }
         }
     },
+
+
+    // 板子能力强化
+
+    widthGrow(num) {
+        this.widthPercent += num;
+    },
+    speedGrow(percent) {
+        this.moveSpeedPercent += percent;
+    },
+    areaGrow(percent) {
+        this.areaPercent += percent;
+    }
 });
