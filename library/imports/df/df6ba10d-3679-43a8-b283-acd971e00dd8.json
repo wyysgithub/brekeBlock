@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bigin",
+    "texture": "9889fddb-92cb-4153-847b-69a6a50be6f0",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      300,
+      100
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      300,
+      100
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -87,7 +87,7 @@ cc.Class({
 
         this.ballNode.active = true;
         //球和板的位置
-        this.baffleNode.x = 0
+        this.baffleNode.x = 0;
 
         this.ballScript.resetPosition()
 

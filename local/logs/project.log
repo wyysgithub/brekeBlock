@@ -1,0 +1,160 @@
+2019-09-21T03:31:00.044Z - normal: Load ~/.CocosCreator/settings.json
+2019-09-21T03:31:01.226Z - normal: Initializing Asset Database
+2019-09-21T03:31:01.228Z - normal: checking language setting...
+2019-09-21T03:31:01.228Z - normal: Language: zh
+2019-09-21T03:31:03.252Z - success: preview server running at http://localhost:7456
+2019-09-21T03:31:03.254Z - success: protocol editor-framework registered
+2019-09-21T03:31:03.254Z - success: protocol app registered
+2019-09-21T03:31:03.254Z - success: protocol theme registered
+2019-09-21T03:31:03.254Z - success: protocol packages registered
+2019-09-21T03:31:03.254Z - success: protocol uuid registerred
+2019-09-21T03:31:03.254Z - success: protocol db registerred
+2019-09-21T03:31:03.255Z - success: protocol thumbnail registerred
+2019-09-21T03:31:03.255Z - success: protocol unpack registerred
+2019-09-21T03:31:03.255Z - success: protocol disable-commonjs registerred
+2019-09-21T03:31:03.364Z - normal: connected!
+2019-09-21T03:31:03.364Z - normal: Check project E:\cocos2d\brekeBlock
+2019-09-21T03:31:03.364Z - normal: Initializing project E:\cocos2d\brekeBlock
+2019-09-21T03:31:04.010Z - normal: Initializing Cocos2d
+2019-09-21T03:31:06.180Z - normal: Initializing engine extends
+2019-09-21T03:31:06.412Z - success: asset-db-debugger loaded
+2019-09-21T03:31:06.414Z - success: baidu-adapter loaded
+2019-09-21T03:31:06.418Z - success: color-picker loaded
+2019-09-21T03:31:06.603Z - success: fb-audience-network loaded
+2019-09-21T03:31:06.696Z - success: fb-live-stream loaded
+2019-09-21T03:31:06.700Z - success: google-play-instant loaded
+2019-09-21T03:31:06.725Z - success: huawei-runtime loaded
+2019-09-21T03:31:07.450Z - success: cpk-publish loaded
+2019-09-21T03:31:07.451Z - success: jsb-adapter loaded
+2019-09-21T03:31:07.494Z - success: oppo-runtime loaded
+2019-09-21T03:31:07.509Z - success: package-manager loaded
+2019-09-21T03:31:07.878Z - success: qqplay-adapter loaded
+2019-09-21T03:31:07.878Z - success: runtime-dev-tools loaded
+2019-09-21T03:31:07.898Z - success: sdkbox loaded
+2019-09-21T03:31:07.898Z - success: tester loaded
+2019-09-21T03:31:07.898Z - success: ui-grid loaded
+2019-09-21T03:31:07.908Z - success: ui-kit-preview-extra loaded
+2019-09-21T03:31:07.918Z - success: ui-kit-preview loaded
+2019-09-21T03:31:07.918Z - success: ui-kit loaded
+2019-09-21T03:31:07.918Z - success: ui-tree loaded
+2019-09-21T03:31:07.998Z - success: vivo-runtime loaded
+2019-09-21T03:31:08.008Z - success: weapp-adapter loaded
+2019-09-21T03:31:08.008Z - success: xiaomi-adapter loaded
+2019-09-21T03:31:08.078Z - success: assets loaded
+2019-09-21T03:31:08.078Z - success: builder loaded
+2019-09-21T03:31:08.598Z - success: cocos-services loaded
+2019-09-21T03:31:08.608Z - success: console loaded
+2019-09-21T03:31:08.638Z - success: fb-instant-games loaded
+2019-09-21T03:31:08.638Z - success: google-instant-games loaded
+2019-09-21T03:31:08.638Z - success: hierarchy loaded
+2019-09-21T03:31:08.638Z - success: inspector loaded
+2019-09-21T03:31:08.638Z - success: keystore loaded
+2019-09-21T03:31:08.648Z - success: node-library loaded
+2019-09-21T03:31:08.658Z - success: package-asset loaded
+2019-09-21T03:31:08.658Z - success: preferences loaded
+2019-09-21T03:31:08.658Z - success: project-exporter loaded
+2019-09-21T03:31:08.658Z - success: project-importer loaded
+2019-09-21T03:31:08.658Z - success: project-settings loaded
+2019-09-21T03:31:08.668Z - success: scene loaded
+2019-09-21T03:31:08.668Z - success: simulator-debugger loaded
+2019-09-21T03:31:08.668Z - success: sprite-editor loaded
+2019-09-21T03:31:08.668Z - success: store loaded
+2019-09-21T03:31:08.678Z - success: timeline loaded
+2019-09-21T03:31:08.678Z - success: xiaomi-runtime loaded
+2019-09-21T03:31:10.752Z - info: Cocos Services load base data!
+2019-09-21T03:31:11.201Z - warn: [db-task][init] Backup unused meta file: db://assets/script/gameMain.js___jb_tmp___.meta
+2019-09-21T03:31:14.273Z - normal: Loading packages
+2019-09-21T03:31:14.283Z - normal: Watching packages
+2019-09-21T03:31:14.827Z - normal: Run Application
+2019-09-21T03:31:23.618Z - warn: Sorry, cc.p is deprecated. Please use cc.v2 instead
+2019-09-21T03:38:21.330Z - warn: Sorry, cc.p is deprecated. Please use cc.v2 instead
+2019-09-21T03:44:18.119Z - warn: Sorry, cc.p is deprecated. Please use cc.v2 instead
+2019-09-21T03:44:22.052Z - warn: Sorry, cc.p is deprecated. Please use cc.v2 instead
+2019-09-21T03:47:54.952Z - failed: [db-task][sync-changes] Failed to import asset E:\cocos2d\brekeBlock\assets\script\select.js, message: Compile error: SyntaxError: E:/cocos2d/brekeBlock/assets/script/select.js: Unexpected token, expected , (33:12)
+  31 |         icon:{
+  32 |             default:null
+> 33 |             type:cc.SpriteFrame
+     |             ^
+  34 |         }
+  35 |     },
+  36 | 
+    at Parser.pp$5.raise (D:\CocosCreator_2.0.10\resources\app.asar\node_modules\babylon\lib\index.js:4454:13)
+    at Parser.pp.unexpected (D:\CocosCreator_2.0.10\resources\app.asar\node_modules\babylon\lib\index.js:1761:8)
+    at Parser.pp.expect (D:\CocosCreator_2.0.10\resources\app.asar\node_modules\babylon\lib\index.js:1749:33)
+    at Parser.pp$3.parseObj (D:\CocosCreator_2.0.10\resources\app.asar\node_modules\babylon\lib\index.js:3978:12)
+    at Parser.pp$3.parseExprAtom (D:\CocosCreator_2.0.10\resources\app.asar\node_modules\babylon\lib\index.js:3719:19)
+    at Parser.pp$3.parseExprSubscripts (D:\CocosCreator_2.0.10\resources\app.asar\node_modules\babylon\lib\index.js:3494:19)
+    at Parser.pp$3.parseMaybeUnary (D:\CocosCreator_2.0.10\resources\app.asar\node_modules\babylon\lib\index.js:3474:19)
+    at Parser.pp$3.parseExprOps (D:\CocosCreator_2.0.10\resources\app.asar\node_modules\babylon\lib\index.js:3404:19)
+    at Parser.pp$3.parseMaybeConditional (D:\CocosCreator_2.0.10\resources\app.asar\node_modules\babylon\lib\index.js:3381:19)
+    at Parser.pp$3.parseMaybeAssign (D:\CocosCreator_2.0.10\resources\app.asar\node_modules\babylon\lib\index.js:3344:19)
+2019-09-21T03:48:00.267Z - failed: [db-task][sync-changes] Failed to import asset E:\cocos2d\brekeBlock\assets\script\select.js, message: Compile error: SyntaxError: E:/cocos2d/brekeBlock/assets/script/select.js: Unexpected token, expected , (33:12)
+  31 |         icon:{
+  32 |             default:null
+> 33 |             type:cc.Spriteframe
+     |             ^
+  34 |         }
+  35 |     },
+  36 | 
+    at Parser.pp$5.raise (D:\CocosCreator_2.0.10\resources\app.asar\node_modules\babylon\lib\index.js:4454:13)
+    at Parser.pp.unexpected (D:\CocosCreator_2.0.10\resources\app.asar\node_modules\babylon\lib\index.js:1761:8)
+    at Parser.pp.expect (D:\CocosCreator_2.0.10\resources\app.asar\node_modules\babylon\lib\index.js:1749:33)
+    at Parser.pp$3.parseObj (D:\CocosCreator_2.0.10\resources\app.asar\node_modules\babylon\lib\index.js:3978:12)
+    at Parser.pp$3.parseExprAtom (D:\CocosCreator_2.0.10\resources\app.asar\node_modules\babylon\lib\index.js:3719:19)
+    at Parser.pp$3.parseExprSubscripts (D:\CocosCreator_2.0.10\resources\app.asar\node_modules\babylon\lib\index.js:3494:19)
+    at Parser.pp$3.parseMaybeUnary (D:\CocosCreator_2.0.10\resources\app.asar\node_modules\babylon\lib\index.js:3474:19)
+    at Parser.pp$3.parseExprOps (D:\CocosCreator_2.0.10\resources\app.asar\node_modules\babylon\lib\index.js:3404:19)
+    at Parser.pp$3.parseMaybeConditional (D:\CocosCreator_2.0.10\resources\app.asar\node_modules\babylon\lib\index.js:3381:19)
+    at Parser.pp$3.parseMaybeAssign (D:\CocosCreator_2.0.10\resources\app.asar\node_modules\babylon\lib\index.js:3344:19)
+2019-09-21T03:48:29.967Z - failed: [db-task][sync-changes] Failed to import asset E:\cocos2d\brekeBlock\assets\script\select.js, message: Compile error: SyntaxError: E:/cocos2d/brekeBlock/assets/script/select.js: Unexpected token, expected , (33:12)
+  31 |         icon:{
+  32 |             default:null
+> 33 |             type:cc.Sprite
+     |             ^
+  34 |         }
+  35 |     },
+  36 | 
+    at Parser.pp$5.raise (D:\CocosCreator_2.0.10\resources\app.asar\node_modules\babylon\lib\index.js:4454:13)
+    at Parser.pp.unexpected (D:\CocosCreator_2.0.10\resources\app.asar\node_modules\babylon\lib\index.js:1761:8)
+    at Parser.pp.expect (D:\CocosCreator_2.0.10\resources\app.asar\node_modules\babylon\lib\index.js:1749:33)
+    at Parser.pp$3.parseObj (D:\CocosCreator_2.0.10\resources\app.asar\node_modules\babylon\lib\index.js:3978:12)
+    at Parser.pp$3.parseExprAtom (D:\CocosCreator_2.0.10\resources\app.asar\node_modules\babylon\lib\index.js:3719:19)
+    at Parser.pp$3.parseExprSubscripts (D:\CocosCreator_2.0.10\resources\app.asar\node_modules\babylon\lib\index.js:3494:19)
+    at Parser.pp$3.parseMaybeUnary (D:\CocosCreator_2.0.10\resources\app.asar\node_modules\babylon\lib\index.js:3474:19)
+    at Parser.pp$3.parseExprOps (D:\CocosCreator_2.0.10\resources\app.asar\node_modules\babylon\lib\index.js:3404:19)
+    at Parser.pp$3.parseMaybeConditional (D:\CocosCreator_2.0.10\resources\app.asar\node_modules\babylon\lib\index.js:3381:19)
+    at Parser.pp$3.parseMaybeAssign (D:\CocosCreator_2.0.10\resources\app.asar\node_modules\babylon\lib\index.js:3344:19)
+2019-09-21T03:48:42.301Z - failed: [db-task][sync-changes] Failed to import asset E:\cocos2d\brekeBlock\assets\script\select.js, message: Compile error: SyntaxError: E:/cocos2d/brekeBlock/assets/script/select.js: Unexpected token, expected , (33:12)
+  31 |         icon:{
+  32 |             default:null
+> 33 |             type:cc.Node
+     |             ^
+  34 |         }
+  35 |     },
+  36 | 
+    at Parser.pp$5.raise (D:\CocosCreator_2.0.10\resources\app.asar\node_modules\babylon\lib\index.js:4454:13)
+    at Parser.pp.unexpected (D:\CocosCreator_2.0.10\resources\app.asar\node_modules\babylon\lib\index.js:1761:8)
+    at Parser.pp.expect (D:\CocosCreator_2.0.10\resources\app.asar\node_modules\babylon\lib\index.js:1749:33)
+    at Parser.pp$3.parseObj (D:\CocosCreator_2.0.10\resources\app.asar\node_modules\babylon\lib\index.js:3978:12)
+    at Parser.pp$3.parseExprAtom (D:\CocosCreator_2.0.10\resources\app.asar\node_modules\babylon\lib\index.js:3719:19)
+    at Parser.pp$3.parseExprSubscripts (D:\CocosCreator_2.0.10\resources\app.asar\node_modules\babylon\lib\index.js:3494:19)
+    at Parser.pp$3.parseMaybeUnary (D:\CocosCreator_2.0.10\resources\app.asar\node_modules\babylon\lib\index.js:3474:19)
+    at Parser.pp$3.parseExprOps (D:\CocosCreator_2.0.10\resources\app.asar\node_modules\babylon\lib\index.js:3404:19)
+    at Parser.pp$3.parseMaybeConditional (D:\CocosCreator_2.0.10\resources\app.asar\node_modules\babylon\lib\index.js:3381:19)
+    at Parser.pp$3.parseMaybeAssign (D:\CocosCreator_2.0.10\resources\app.asar\node_modules\babylon\lib\index.js:3344:19)
+2019-09-21T03:48:53.046Z - warn: Sorry, cc.p is deprecated. Please use cc.v2 instead
+2019-09-21T03:49:04.421Z - warn: Sorry, cc.p is deprecated. Please use cc.v2 instead
+2019-09-21T03:50:27.589Z - warn: Sorry, cc.p is deprecated. Please use cc.v2 instead
+2019-09-21T03:51:52.990Z - warn: Sorry, cc.p is deprecated. Please use cc.v2 instead
+2019-09-21T03:52:29.362Z - warn: Sorry, cc.p is deprecated. Please use cc.v2 instead
+2019-09-21T03:53:13.764Z - warn: Sorry, cc.p is deprecated. Please use cc.v2 instead
+2019-09-21T03:53:29.238Z - warn: Sorry, cc.p is deprecated. Please use cc.v2 instead
+2019-09-21T03:54:44.256Z - warn: Sorry, cc.p is deprecated. Please use cc.v2 instead
+2019-09-21T03:56:08.415Z - warn: Sorry, cc.p is deprecated. Please use cc.v2 instead
+2019-09-21T03:59:21.710Z - warn: Sorry, cc.p is deprecated. Please use cc.v2 instead
+2019-09-21T04:00:28.592Z - warn: Sorry, cc.p is deprecated. Please use cc.v2 instead
+2019-09-21T04:01:30.955Z - warn: Sorry, cc.p is deprecated. Please use cc.v2 instead
+2019-09-21T04:02:03.823Z - warn: Sorry, cc.p is deprecated. Please use cc.v2 instead
+2019-09-21T04:02:57.571Z - warn: Sorry, cc.p is deprecated. Please use cc.v2 instead
+2019-09-21T04:46:04.768Z - warn: Sorry, cc.p is deprecated. Please use cc.v2 instead
+2019-09-21T04:46:13.226Z - info: shutdown preview server

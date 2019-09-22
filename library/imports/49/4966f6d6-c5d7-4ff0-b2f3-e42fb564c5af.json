@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "baffle",
+    "texture": "7778df4c-9d7c-45cd-a814-97541c36263c",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      200,
+      30
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      200,
+      30
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
