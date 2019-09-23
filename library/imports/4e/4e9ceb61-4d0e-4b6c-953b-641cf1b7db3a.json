@@ -1,7 +1,7 @@
 {
   "__type__": "cc.SpriteFrame",
   "content": {
-    "name": "yellowSpeed",
+    "name": "icon_Speed",
     "texture": "dfeaf517-2f4c-4999-a3ab-977fab858b0d",
     "atlas": "",
     "rect": [

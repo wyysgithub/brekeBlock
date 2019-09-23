@@ -1,14 +1,15 @@
 {
   "version": "1.1.1",
   "windows": {
+    "worker": {},
     "main": {
       "main": true,
       "url": "app://editor/index.html",
       "windowType": "dockable",
-      "x": 320,
-      "y": 160,
-      "width": 1280,
-      "height": 720,
+      "x": 1912,
+      "y": -8,
+      "width": 1616,
+      "height": 876,
       "layout": {
         "children": [
           {

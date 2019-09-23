@@ -33,8 +33,10 @@ cc.Class({
         //         this._bar = value;
         //     }
         // },
+        baseWidth: 200,
         widthPercent: 1,
         springPercent: 1,
+        baseSpeed: 400,
         moveSpeedPercent: 1
     },
 
@@ -44,7 +46,7 @@ cc.Class({
         this.ballNode = cc.find("UI_ROOT/ball");
         this.ballNodeScript = cc.find("UI_ROOT/ball").getComponent('ball');
 
-        this.node.width = 200 * this.widthPercent;
+        this.node.width = this.baseWidth * this.widthPercent;
 
         this.leftMax = this.node.width / 2 - 360;
         this.rightMax = 360 - this.node.width / 2;
@@ -68,14 +70,14 @@ cc.Class({
 
     update: function update(dt) {
         if (this.isMoveLeft) {
-            this.node.x -= this.moveSpeedPercent * 200 * dt;
+            this.node.x -= this.moveSpeedPercent * this.baseSpeed * dt;
             if (!this.ballNodeScript.ballRun) {
-                this.ballNode.x -= this.moveSpeedPercent * 200 * dt;
+                this.ballNode.x -= this.moveSpeedPercent * this.baseSpeed * dt;
             }
         } else if (this.isMoveRight) {
-            this.node.x += this.moveSpeedPercent * 200 * dt;
+            this.node.x += this.moveSpeedPercent * this.baseSpeed * dt;
             if (!this.ballNodeScript.ballRun) {
-                this.ballNode.x += this.moveSpeedPercent * 200 * dt;
+                this.ballNode.x += this.moveSpeedPercent * this.baseSpeed * dt;
             }
         }
 

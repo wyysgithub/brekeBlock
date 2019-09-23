@@ -1,12 +1,13 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.0",
   "uuid": "dfeaf517-2f4c-4999-a3ab-977fab858b0d",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "platformSettings": {},
   "subMetas": {
-    "yellowSpeed": {
+    "icon_Speed": {
       "ver": "1.0.4",
       "uuid": "4e9ceb61-4d0e-4b6c-953b-641cf1b7db3a",
       "rawTextureUuid": "dfeaf517-2f4c-4999-a3ab-977fab858b0d",

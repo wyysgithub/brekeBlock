@@ -27,7 +27,9 @@ cc.Class({
         //         this._bar = value;
         //     }
         // },
+        baseSpeed:800,
         speedPercent: 1,
+        baseArea: 30,
         areaPercent: 1,
         attack: 1,
         ballNum: 3
@@ -64,18 +66,18 @@ cc.Class({
         // velocity.x = 500 * speedPercent;
         // velocity.y = 500 * speedPercent;
 
-        this.RigidBody.linearVelocity = cc.p(500 * speedPercent, 500 * speedPercent);
+        this.RigidBody.linearVelocity = cc.p(this.baseSpeed * speedPercent, this.baseSpeed * speedPercent);
 
     },
     setArea(areaPercent) {
 
         // 图形大小
-        this.node.width = 30 * areaPercent;
-        this.node.height = 30 * areaPercent;
+        this.node.width = this.baseArea * areaPercent;
+        this.node.height = this.baseArea * areaPercent;
 
         // 刚体大小
         var physicsCircle = this.getComponent(cc.PhysicsCircleCollider);
-        physicsCircle.radius = 15 * areaPercent;
+        physicsCircle.radius = this.baseArea / 2  * areaPercent;
 
         physicsCircle.apply();
 
@@ -124,7 +126,7 @@ cc.Class({
     },
 
     update(dt) {
-        if (this.node.y < -600) {
+        if (this.node.y < -640) {
             this.ballNum -= 1;
 
             if (this.ballNum >= 0) {
@@ -148,7 +150,9 @@ cc.Class({
         if (otherCollider.node.groupIndex === 3) {
             if(this.attack >= otherCollider.node.getComponent("block").defense){
                 otherCollider.node.destroy();
-                this.getBlockNum()
+                this.scheduleOnce(function () {
+                    this.getBlockNum()
+                }.bind(this),0.2)
             }else {
                 otherCollider.node.getComponent("block").defense -= this.attack;
             }
@@ -183,9 +187,11 @@ cc.Class({
     },
     speedGrow(percent) {
         this.speedPercent += percent;
+        // this.setSpeed(this.speedPercent);
     },
     areaGrow(percent) {
         this.areaPercent += percent;
+        this.setArea(this.areaPercent);
     }
 
 });
